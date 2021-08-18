@@ -6,10 +6,7 @@ import {stylesMaster} from './src/theme/appTheme';
 const App = () => {
   return (
     <SafeAreaView style={stylesMaster.fondo}>
-      <StatusBar 
-        backgroundColor="black"
-        barStyle='light-content'
-      />
+      <StatusBar backgroundColor="#eeeeee" barStyle="dark-content" />
       <CalculadoraScreen />
     </SafeAreaView>
   );

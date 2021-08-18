@@ -34,30 +34,30 @@ const CalculadoraScreen = () => {
         <BotonCalc texto="C" action={limpiarFunc} color="#9B9B9B" />
         <BotonCalc texto="+/-" color="#9B9B9B" action={toggleSign} />
         <BotonCalc texto="Del" color="#9B9B9B" action={btnDelete} />
-        <BotonCalc texto="/" color="#FF9427" action={btnDividir} />
+        <BotonCalc texto="/" color="#f11b1b" action={btnDividir} />
       </View>
       <View style={stylesMaster.rowStyle}>
         <BotonCalc texto="7" action={armarNumeroFunc} />
         <BotonCalc texto="8" action={armarNumeroFunc} />
         <BotonCalc texto="9" action={armarNumeroFunc} />
-        <BotonCalc texto="X" color="#FF9427" action={btnMultiplicar} />
+        <BotonCalc texto="X" color="#f11b1b" action={btnMultiplicar} />
       </View>
       <View style={stylesMaster.rowStyle}>
         <BotonCalc texto="4" action={armarNumeroFunc} />
         <BotonCalc texto="5" action={armarNumeroFunc} />
         <BotonCalc texto="6" action={armarNumeroFunc} />
-        <BotonCalc texto="-" color="#FF9427" action={btnRestar} />
+        <BotonCalc texto="-" color="#f11b1b" action={btnRestar} />
       </View>
       <View style={stylesMaster.rowStyle}>
         <BotonCalc texto="1" action={armarNumeroFunc} />
         <BotonCalc texto="2" action={armarNumeroFunc} />
         <BotonCalc texto="3" action={armarNumeroFunc} />
-        <BotonCalc texto="+" color="#FF9427" action={btnSumar} />
+        <BotonCalc texto="+" color="#f11b1b" action={btnSumar} />
       </View>
       <View style={stylesMaster.rowStyle}>
         <BotonCalc texto="0" action={armarNumeroFunc} ancho />
         <BotonCalc texto="." action={armarNumeroFunc} />
-        <BotonCalc texto="=" color="#FF9427" action={calcular} />
+        <BotonCalc texto="=" color="#f11b1b" action={calcular} />
       </View>
     </View>
   );

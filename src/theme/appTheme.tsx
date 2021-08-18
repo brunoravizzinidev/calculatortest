@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 export const stylesMaster = StyleSheet.create({
   fondo: {
-    backgroundColor: 'black',
+    backgroundColor: '#eeeeee',
     flex: 1,
   },
   calcContainer: {
@@ -11,13 +11,13 @@ export const stylesMaster = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   resultado: {
-    color: 'white',
+    color: '#3f3f3f',
     fontSize: 60,
     marginBottom: 10,
     textAlign: 'right',
   },
   resultadoSmall: {
-    color: 'rgba(255,255,255,0.5)',
+    color: 'rgba(63,63,63,0.5)',
     fontSize: 30,
     textAlign: 'right',
   },
