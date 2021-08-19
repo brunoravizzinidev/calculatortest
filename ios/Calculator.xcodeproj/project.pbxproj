@@ -145,7 +145,6 @@
 				5368757E43FAB875F4918524 /* Pods-Calculator-CalculatorTests.debug.xcconfig */,
 				CCECB8EF6AC2CE10D5631A1B /* Pods-Calculator-CalculatorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
