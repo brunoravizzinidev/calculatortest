@@ -1,4 +1,5 @@
-package com.calculator;
+// package com.calculator;
+package com.timudev.calculatortest;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 
 import android.app.Application;

@@ -1,4 +1,5 @@
-package com.calculator;
+// package com.calculator;
+package com.timudev.calculatortest;
 
 import android.os.Bundle; // here
 
