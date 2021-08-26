@@ -11,7 +11,8 @@ end
 platform :android do
   desc "Android build and release to Alpha"
   lane :alpha do
-    increment_version_code(app_project_dir: './android/app')
+    #increment_version_code(app_project_dir: './android/app')
+    increment_version_code(gradle_file_path: './android/app')
     gradle(task: 'clean', project_dir: './android/' )
     gradle(task: 'bundle', build_type: 'Release', project_dir: './android')
     supply(track: 'alpha', aab: './android/app/build/outputs/bundle/release/app-release.aab')
