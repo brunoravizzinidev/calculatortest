@@ -15,7 +15,7 @@ platform :android do
     increment_version_code(gradle_file_path: './android/app/build.gradle')
     gradle(task: 'clean', project_dir: './android/' )
     gradle(task: 'bundle', build_type: 'Release', project_dir: './android')
-    supply(track: 'alpha', aab: './android/app/build/outputs/bundle/release/app-release.aab')
+    supply(track: 'alpha', release_status: 'draft', aab: './android/app/build/outputs/bundle/release/app-release.aab')
   end
 
   desc "Android build and release to Internal"
@@ -24,6 +24,6 @@ platform :android do
     increment_version_code(gradle_file_path: './android/app/build.gradle')
     gradle(task: 'clean', project_dir: './android/' )
     gradle(task: 'bundle', build_type: 'Release', project_dir: './android')
-    supply(track: 'internal', aab: './android/app/build/outputs/bundle/release/app-release.aab')
+    supply(track: 'internal', release_status: 'draft', aab: './android/app/build/outputs/bundle/release/app-release.aab')
   end
 end

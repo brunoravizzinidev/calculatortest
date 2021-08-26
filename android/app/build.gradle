@@ -134,7 +134,7 @@ android {
         applicationId "com.timudev.calculatortest"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion 30
-        versionCode 3
+        versionCode 4
         versionName "1.1"
     }
     splits {

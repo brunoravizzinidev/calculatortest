@@ -21,6 +21,11 @@ or alternatively using `brew install fastlane`
 fastlane android alpha
 ```
 Android build and release to Alpha
+### android internal
+```
+fastlane android internal
+```
+Android build and release to Internal
 
 ----
 
