@@ -1,0 +1,1 @@
+Aplicación sencilla para operatividad, es una calculadora, con las operaciones básicas. Muy liviana.
