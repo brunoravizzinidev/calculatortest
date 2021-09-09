@@ -135,10 +135,14 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion 30
 <<<<<<< HEAD
+<<<<<<< HEAD
         versionCode 4
 =======
         versionCode 3
 >>>>>>> f18e4f7... UPDATE: gradle
+=======
+        versionCode 4
+>>>>>>> 37d0e5d... UPDATE: release status
         versionName "1.1"
     }
     splits {
