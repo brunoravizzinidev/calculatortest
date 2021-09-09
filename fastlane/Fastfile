@@ -21,6 +21,7 @@ platform :android do
   lane :alpha do
     #increment_version_code(app_project_dir: './android/app')
 <<<<<<< HEAD
+<<<<<<< HEAD
     increment_version_code(gradle_file_path: './android/app/build.gradle')
     gradle(task: 'clean', project_dir: './android/' )
     gradle(task: 'bundle', build_type: 'Release', project_dir: './android')
@@ -34,6 +35,9 @@ platform :android do
 =======
     increment_version_code(gradle_file_path: './android/app')
 >>>>>>> cc88878... UPDATE: fastfile increment
+=======
+    increment_version_code(gradle_file_path: './android/app/build.gradle')
+>>>>>>> 214937c... UPDATE: fastfile increment
     gradle(task: 'clean', project_dir: './android/' )
     gradle(task: 'bundle', build_type: 'Release', project_dir: './android')
     supply(track: 'internal', release_status: 'draft', aab: './android/app/build/outputs/bundle/release/app-release.aab')
