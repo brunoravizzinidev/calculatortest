@@ -20,6 +20,7 @@ platform :android do
   desc "Android build and release to Alpha"
   lane :alpha do
     #increment_version_code(app_project_dir: './android/app')
+<<<<<<< HEAD
     increment_version_code(gradle_file_path: './android/app/build.gradle')
     gradle(task: 'clean', project_dir: './android/' )
     gradle(task: 'bundle', build_type: 'Release', project_dir: './android')
@@ -30,6 +31,9 @@ platform :android do
   lane :internal do
     #increment_version_code(app_project_dir: './android/app')
     increment_version_code(gradle_file_path: './android/app/build.gradle')
+=======
+    increment_version_code(gradle_file_path: './android/app')
+>>>>>>> cc88878... UPDATE: fastfile increment
     gradle(task: 'clean', project_dir: './android/' )
     gradle(task: 'bundle', build_type: 'Release', project_dir: './android')
     supply(track: 'internal', release_status: 'draft', aab: './android/app/build/outputs/bundle/release/app-release.aab')
