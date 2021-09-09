@@ -2,10 +2,14 @@ before_all do
   ensure_git_branch(branch: 'main')
   ensure_git_status_clean
 <<<<<<< HEAD
+<<<<<<< HEAD
   git_pull
 =======
   git_pull origin main
 >>>>>>> 4507f6e... UPDATE: fastfile
+=======
+  git_pull
+>>>>>>> fd805ad... UPDATE: fastlane
 
 end
 

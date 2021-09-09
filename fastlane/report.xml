@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <testcase classname="fastlane.lanes" name="0: ensure_git_branch" time="0.007747">
         
       </testcase>
@@ -55,10 +56,14 @@
 =======
       <testcase classname="fastlane.lanes" name="0: ensure_git_branch" time="0.00712">
 >>>>>>> 10d3d28... UPDATE: fastlane/report
+=======
+      <testcase classname="fastlane.lanes" name="0: ensure_git_branch" time="0.007842">
+>>>>>>> fd805ad... UPDATE: fastlane
         
       </testcase>
     
       
+<<<<<<< HEAD
 <<<<<<< HEAD
       <testcase classname="fastlane.lanes" name="1: ensure_git_status_clean" time="0.008599">
         
@@ -76,6 +81,9 @@
 =======
       <testcase classname="fastlane.lanes" name="1: ensure_git_status_clean" time="0.008713">
 >>>>>>> 10d3d28... UPDATE: fastlane/report
+=======
+      <testcase classname="fastlane.lanes" name="1: ensure_git_status_clean" time="0.007981">
+>>>>>>> fd805ad... UPDATE: fastlane
         
       </testcase>
     
